@@ -6,7 +6,6 @@ import shutil
 import gzip
 import argparse
 from bs4 import BeautifulSoup as bs
-from models import loadSession, IMDB_Titles
 from sqlalchemy import update
 from urllib.parse import urlparse
 
